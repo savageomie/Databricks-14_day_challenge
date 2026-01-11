@@ -14,10 +14,9 @@
 - Loaded as Databricks table:
   - `workspace.default.amazon_products`
 
-```python
-df = spark.table("workspace.default.amazon_products")
-display(df.limit(5))
-print(df.count())
+
+
+
 🧠 Key Learnings
 ✅ PySpark vs Pandas
 Feature	Pandas	PySpark
